@@ -39,14 +39,15 @@ Exemplo para coletar informações de múltiplas empresas pelo CNPJ:
 
 Como alternativa, use o comando abaixo em um terminal para armazenar os resultados num arquivo `.csv`:
 
-```
-empresas_brasil --key ea67d6a65emshb685a95313a55ccp1b132bjsnb5e966cbb0cf --id 00394460005887 --id 00396895004201 --path exemplo.csv
+```bash
+export RAPID_API_KEY=ea67d6a65emshb685a95313a55ccp1b132bjsnb5e966cbb0cf
+empresas_brasil --key $RAPID_API_KEY --id 00394460005887 --id 00396895004201 --path exemplo.csv
 ```
 
 Ou use o comando abaixo em um terminal para armazenar os resultados num arquivo `.json`:
 
-```
-empresas_brasil --key ea67d6a65emshb685a95313a55ccp1b132bjsnb5e966cbb0cf --id 00394460005887 --id 00396895004201 --path exemplo.json
+```bash
+empresas_brasil --key $RAPID_API_KEY --id 00394460005887 --id 00396895004201 --path exemplo.json
 ```
 
 ## Schema
