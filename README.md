@@ -1,6 +1,8 @@
 # Empresas do Brasil (CNPJs)
 
-Biblioteca em Python que coleta informações cadastrais de empresas do Brasil (CNPJ) obtidas de fontes oficiais (Receita Federal) e exporta para um formato legível por humanos (CSV ou JSON).
+Biblioteca em Python que coleta informações cadastrais de empresas do Brasil (CNPJ) obtidas de fontes oficiais (Receita Federal do Brasil - RFB) e exporta para um formato legível por humanos (CSV ou JSON).
+
+> Python library that collects cadastral information of companies from Brazil (CNPJ) provided by official sources (Federal Revenue of Brazil - RFB) and exports results to a human-readable format (CSV or JSON).
 
 ## Instalação
 
